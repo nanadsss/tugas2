@@ -1,0 +1,21 @@
+{
+    "name": "user/tugas2",
+    "description": "Tugas 2 PBWL",
+    "type": "project",
+    "require": {
+        "php": "^8.2",
+        "filp/whoops": "^2.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "App//": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nanadss",
+            "email": "nadilaagnestesia@gmail.com"
+        }
+    ]
+    
+}

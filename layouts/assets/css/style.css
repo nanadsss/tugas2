@@ -1,0 +1,125 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+aside {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #067640;
+
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.brand {
+  width: 200px;
+  height: 190px;
+  border-radius: 30%;
+  margin-left: -5px;
+}
+.user {
+  font-weight: bold;
+  padding-top: 0px;
+  color: white;
+  font-size: larger;
+}
+main {
+  margin-left: 210px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  padding: 15px 20px;
+  margin: 5px 0 5px 0;
+  display: block;
+  color: white;
+}
+
+nav a:hover {
+  background-color: #b5e4da;
+}
+
+nav .icon {
+  width: 25px;
+  float: left;
+  padding-right: 10px;
+}
+
+.info {
+  background-color: #eeefe8;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+table {
+  margin: 15px 0;
+  border: 1px solid #cccccc;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+table th {
+  border: 1px solid #cccccc;
+  padding: 8px;
+  background-color: #d8dadf;
+}
+
+table td {
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+
+.btn {
+  background-color: #1d0b97e9;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 5px;
+}
+.btn:hover {
+  background-color: #067640;
+}
+.edit:hover{
+  background-color: #067640;
+}
+.delete:hover{
+  background-color: #067640;
+}
+
+.edit{
+  background-color: #dff400f3;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 5px;
+ 
+  
+}
+.delete{
+  background-color: #f40000f3;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 5px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  padding: 20px 0 20px 10px;
+  background-color: #f5f7fa;
+  width: 100%;
+  border-top: 1px solid #d8dadf;
+}
